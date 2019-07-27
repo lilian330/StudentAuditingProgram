@@ -1,0 +1,57 @@
+COMP2404:       Assignment4
+Authors:        Lilian Wang
+Student Number: 101087269
+Date:           2019.04.08
+instructor:     Christine Laurendeau
+
+Purpose:        Working with an existing student auditing program.
+                Modify the student auditing program to interact with a Façade class
+                that acts as an interface to a simulated cloud-based storage service.
+                also implement a class template and overloaded operators.
+
+Source files:
+                defs.h
+                main.cc
+                Student.h
+                Student.cc
+                Course.h
+                Course.cc
+                Storage.h
+                Storage.cc
+                Control.h
+                Control.cc
+                View.h
+                View.cc
+                List.h
+                CourseList.h
+                CourseList.cc
+                Monitor.h
+                Monitor.cc
+                FWMonitor.h
+                FWMonitor.cc
+                GPAMonitor.h
+                GPAMonitor.cc
+                StuServer.h
+                StuServer.o
+                Makefile
+                readme
+                in.txt
+
+
+Compilation:
+                make
+                //using Makefile to Compile the program
+
+                ./a4
+                //to test the program
+
+                valgrind ./a4 <in.txt
+                //For testing: using in.txt to test the program.
+                //using valgrind to test the memory leak
+
+                make clean
+                //to clean the object files, executables.
+
+Launching:
+                Run COMP2404B-W19 in the VirtualBox;
+                Using Termial to Compile the program.
